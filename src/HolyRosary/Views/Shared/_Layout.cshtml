@@ -6,6 +6,15 @@
     <title>Holy Rosary</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0YMFQWGT01"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-0YMFQWGT01');
+    </script>
 </head>
 <body>
     <header>
@@ -20,10 +29,9 @@
             @RenderBody()
         </main>
     </div>
-
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2020 - Holy Rosary - <a href="/credits">Credits</a>
+            &copy; 2020 - <a href="https://twitter.com/jglozano" target="_blank">@@jglozano</a>&nbsp;|&nbsp;<a href="/about">About</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
