@@ -1,0 +1,30 @@
+{
+    "Name" : "Sorrowful Mysteries",
+    "Days" : ["Tuesday", "Friday"],
+    "Mysteries" : [{
+            "Name" : "The Agony in the Garden",
+            "Event" : "Jesus prays in the Garden of Gethsemane on the night before he dies",
+            "Lesson" : "Sorrow for Sin, Uniformity with the Will of God"
+        },
+        {
+            "Name" : "The Scourging at the Pillar",
+            "Event" : "Jesus is lashed with whips",
+            "Lesson" : "Mortification (Purity)"
+        },
+        {
+            "Name" : "The Crowning with Thorns",
+            "Event" : "Jesus is mocked and crowned with thorns",
+            "Lesson" : "Contempt of the World (Moral Courage)"
+        },
+        {
+            "Name" : "The Carrying of the Cross",
+            "Event" : "Jesus carries the cross that will be used to crucify him",
+            "Lesson" : "Patience"
+        },
+        {
+            "Name" : "The Crucifixion and Death of our Lord",
+            "Event" : "Jesus is nailed to the cross and dies",
+            "Lesson" : "Perseverance in Faith, Grace for a Holy Death (Forgiveness)"
+        }
+    ]
+}

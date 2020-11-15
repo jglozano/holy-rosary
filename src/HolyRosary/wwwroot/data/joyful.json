@@ -1,0 +1,30 @@
+{
+    "Name" : "Joyful Mysteries",
+    "Days" : ["Monday", "Saturday"],
+    "Mysteries" : [{
+            "Name" : "The Annunciation",
+            "Event" : "Mary learns that she has been chosen to be the mother of Jesus",
+            "Lesson" : "Humility"
+        },
+        {
+            "Name" : "The Visitation",
+            "Event" : "Mary, pregnant with Jesus, visits her cousin Elizabeth",
+            "Lesson" : "Love of Neighbor"
+        },
+        {
+            "Name" : "The Nativity",
+            "Event" : "The birth of Jesus in Bethlehem",
+            "Lesson" : "Poverty, Detachment from the things of the world, Contempt of Riches, Love of the Poor"
+        },
+        {
+            "Name" : "The Presentation at the Temple",
+            "Event" : "Mary and Joseph take Jesus to the Temple to present him to God",
+            "Lesson" : "Gift of Wisdom and Purity of mind and body"
+        },
+        {
+            "Name" : "The Finding of Jesus at the Temple",
+            "Event" : "Jesus is found in the Temple discussing his faith with the teachers",
+            "Lesson" : "True Conversion (Piety, Joy of Finding Jesus)"
+        }
+    ]
+}

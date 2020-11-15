@@ -1,0 +1,30 @@
+{
+    "Name" : "Luminous Mysteries",
+    "Days" : ["Thursday"],
+    "Mysteries" : [{
+            "Name" : "The Baptism of Jesus",
+            "Event" : "God proclaims that Jesus is his beloved Son",
+            "Lesson" : "Openness to the Holy Spirit, the Healer"
+        },
+        {
+            "Name" : "The Wedding at Cana",
+            "Event" : "At Mary’s request, Jesus performs his first miracle",
+            "Lesson" : "Hope, Desire to Ascend to Heaven"
+        },
+        {
+            "Name" : "The Proclamation of the Kingdom of God",
+            "Event" : "Jesus calls all to conversion and service to the Kingdom",
+            "Lesson" : "Trust in God"
+        },
+        {
+            "Name" : "The Transfiguration",
+            "Event" : "Jesus is revealed in glory to Peter, James, and John",
+            "Lesson" : "Desire for Holiness"
+        },
+        {
+            "Name" : "The Institution of the Eucharist",
+            "Event" : "Jesus offers his Body and Blood at the Last Supper",
+            "Lesson" : "Adoration"
+        }
+    ]
+}

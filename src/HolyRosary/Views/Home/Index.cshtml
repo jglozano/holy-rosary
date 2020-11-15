@@ -1,0 +1,40 @@
+﻿@model RosaryViewModel
+
+<div class="text-center">
+    <h1>@Model.Title</h1>
+    <h4>@Model.Day</h4>
+    <h5>@Model.Today.ToString("MM/dd/yyyy")</h5>
+    
+    @{
+        var tomorrow = Model.Tomorrow.ToString("yyyy-MM-dd");
+        var yesterday = Model.Yesterday.ToString("yyyy-MM-dd");
+
+        var tomorrowUrl = $"/{tomorrow}";
+        var yesterdayUrl = $"/{yesterday}";
+    }
+    <a href="@yesterdayUrl" class="btn btn-outline-primary">&laquo; Yesterday</a>&nbsp;<a href="@tomorrowUrl" class="btn btn-outline-primary">Tomorrow &raquo;</a>
+</div>
+<br />
+<div class="text-center">
+    @{
+        var mysteries = Model.Mysteries;
+    }
+
+    @for (var i = 0; i < mysteries.Length; i++)
+    {
+        var number = i+1;
+        var mystery = mysteries[i];
+        <div class="card">
+            <div class="card-header">Mystery #@number</div>
+            <div class="card-body">
+                <h5 class="card-title">@mystery.Name</h5>
+                <blockquote class="blockquote mb-0">
+                    <p>@mystery.Event</p>
+                    <footer class="blockquote-footer">Lesson: @mystery.Lesson</footer>
+                </blockquote>
+                
+            </div>
+        </div>
+        <br />
+    }
+</div>

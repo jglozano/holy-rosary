@@ -1,0 +1,30 @@
+{
+    "Name" : "Glorious Mysteries",
+    "Days" : ["Wednesday", "Sunday"],
+    "Mysteries" : [{
+            "Name" : "The Resurrection",
+            "Event" : "God the Father raises Jesus from the dead",
+            "Lesson" : "Faith"
+        },
+        {
+            "Name" : "The Ascension",
+            "Event" : "Jesus returns to his Father in heaven",
+            "Lesson" : "Hope, Desire to Ascend to Heaven"
+        },
+        {
+            "Name" : "The Descent of the Holy Spirit",
+            "Event" : "The Holy Spirit comes to bring new life to the disciples",
+            "Lesson" : "Love of God, Holy Wisdom to know the truth and share it with everyone, Divine Charity, Worship of the Holy Spirit"
+        },
+        {
+            "Name" : "The Assumption of Mary",
+            "Event" : "At the end of her life on earth, Mary is taken body and soul into heaven",
+            "Lesson" : "Union with Mary and True Devotion to Mary"
+        },
+        {
+            "Name" : "The Coronation of Mary",
+            "Event" : "Mary is crowned as Queen of Heaven and Earth",
+            "Lesson" : "Perseverance and an Increase in Virtue (Trust in Mary's Intercession)"
+        }
+    ]
+}
